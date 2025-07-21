@@ -5,8 +5,6 @@
 #include "ScriptMgr.h"
 #include "Player.h"
 
-
-
 class NoSpellCleanupPlayerScript : public PlayerScript
 {
 public:
@@ -14,10 +12,9 @@ public:
 
     bool CheckSkillLearnedBySpell(uint32 spellId)
     {
-        return true; // Bypass validation
+        return true;
     }
 };
-
 
 void AddmodskipspellcleanupScripts()
 {
