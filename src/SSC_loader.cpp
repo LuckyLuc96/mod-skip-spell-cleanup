@@ -3,13 +3,13 @@
  */
 
 // From SC
-void AddMyPlayerScripts();
+void Addmod_skip_spell_cleanupScripts();
 
 // Add all
 // cf. the naming convention https://github.com/azerothcore/azerothcore-wotlk/blob/master/doc/changelog/master.md#how-to-upgrade-4
 // additionally replace all '-' in the module folder name with '_' here
-void Addskeleton_moduleScripts()
+void AddSkip_Cleanup_Scripts()
 {
-    AddMyPlayerScripts();
+    Addmod_skip_spell_cleanupScripts();
 }
 
