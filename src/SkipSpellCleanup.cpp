@@ -12,15 +12,14 @@ class NoSpellCleanupPlayerScript : public PlayerScript
 public:
     NoSpellCleanupPlayerScript() : PlayerScript("NoSpellCleanupPlayerScript") {}
 
-    // Override CheckSkillLearnedBySpell to always return true (prevent spell removal)
-    bool OnCheckSkillLearnedBySpell(Player* /*player*/, uint32 /*spellId*/)
+    bool CheckSkillLearnedBySpell(uint32 spellId)
     {
         return true; // Bypass validation
     }
 };
 
 
-void Addmod_skip_spell_cleanupScripts()
+void AddmodskipspellcleanupScripts()
 {
     new NoSpellCleanupPlayerScript();
 }
