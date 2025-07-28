@@ -1,9 +1,5 @@
 # Mod - Skip Spell Cleanup
 
-This mod reverts a patch and **RESTORES A BUG**:
-https://github.com/azerothcore/azerothcore-wotlk/issues/22367
-The PR that it "reverts" is https://github.com/azerothcore/azerothcore-wotlk/pull/22370
+The function this mod was going to provide is now in the base core. 
 
-You can use this mod to teach your characters spells that the class should not know. But if you teach them spells that require DBC edits, you risk the character not being able to be saved in the DB and effectively lose the ability for the character to be progressed.
-
-# Use at your own risk!
+https://github.com/azerothcore/azerothcore-wotlk/pull/22521
